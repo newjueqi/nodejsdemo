@@ -5,7 +5,7 @@ app.get('/', function (req, res) {
   res.send('nodejs环境正在运行111');
 });
 
-var server = app.listen(80, function () {
+var server = app.listen(3000, function () {
   var host = server.address().address;
   var port = server.address().port;
 });
